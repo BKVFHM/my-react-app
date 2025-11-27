@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.task-item {
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+  transition: 1s;
+  
+
+    
+}
+
+.task-item:hover {
+  background-color: grey;  
+  cursor: pointer;
+  
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  border: 1px solid;
+  box-shadow: 5px 5px 5px;
+  margin: 5px;
+  
+  
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.activity {
+  text-align: center;
+  margin: 30px;
+  
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#submit {
+  
+  height: 25px;
+  border: solid 1px black;
+}
+
+.add-kanban-button {
+  border: solid 2px black;
+  box-shadow: 5px 5px 5px ;
+  height: 25px;
+}
+
